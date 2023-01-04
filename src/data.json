@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Butter Pancakes",
+        "desc": "With honey",
+        "price": 14.50,
+        "image": "/images/pancakes.png"
+    },
+    {
+        "id": 2,
+        "title": "Avocado Toast",
+        "desc": "2 pieces",
+        "price": 16.50,
+        "image": "/images/avocado-toast.png"
+    },
+    {
+        "id": 3,
+        "title": "Sweet Yogurt",
+        "desc": "With strawberries",
+        "price": 5.00,
+        "image": "/images/sweet-yogurt.png"
+    },
+    {
+        "id": 4,
+        "title": "Peanut Toast",
+        "desc": "With peanut butter",
+        "price": 9.50,
+        "image": "/images/peanut-toast.png"
+    },
+    {
+        "id": 5,
+        "title": "French Toas",
+        "desc": "With butter bread and berries",
+        "price": 9.50,
+        "image": "/images/french-toast.png"
+    }
+    
+]

@@ -21,6 +21,7 @@ header{
   align-items: center;
   justify-content: space-between;
 }
+
 .navbar{
   display: flex;
 }
@@ -32,6 +33,9 @@ header{
 }
 .nav-item{
   list-style: none;
+  font-weight: 600;
+  color: rgb(58, 55, 55);
+  cursor: pointer;
 }
 .delivery{
   position: relative;
@@ -44,10 +48,12 @@ header{
   position: relative;
   list-style: none;
   padding: 5px 15px;
+  font-weight: 600;
   background-color: rgba(243, 196, 27, 0.313);
-  color: rgb(135, 201, 20);
+  color: rgb(249, 142, 42);
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  cursor: pointer;
 }
 .delivery-btn::after{
   content: '';
@@ -64,6 +70,7 @@ header{
   font-size: 25px;
   list-style: none;
   color: rgba(44, 44, 202, 0.609);
+  cursor: pointer;
 }
 .intro{
   display: flex;
@@ -71,7 +78,6 @@ header{
   align-items: flex-start;
   width: 400px;
   height: 100%;
-  margin-top: 5rem;
 }
 .intro-text{
   font-size: 46px;
@@ -80,8 +86,175 @@ header{
   width: 100%;
 }
 span{
-  color: rgb(135, 201, 20);
+  color: rgb(249, 142, 42);
+  font-weight: bold;
 }
 .lead{
   font-size: 14px;
+}
+.slider-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  width: 100%;
+  height: 100%;
+  gap: 40px;
+}
+.card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+  width: 250px;
+  height: 300px;
+  background-color: #eee;
+  border-radius: 20px;
+}
+.card-img{
+  position: absolute;
+  top: -45px;
+  right: -40px;
+  width: 170px;
+  height: 170px;
+}
+.card-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.basket{
+  position: absolute;
+  padding: 7px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+.card-content{
+  margin: 40px 10px;
+}
+.item-title{
+  font-size: 26px;
+}
+.item-desc{
+  font-weight: 600;
+  color: rgb(83, 78, 78);
+}
+.item-price{
+  font-weight: 600;
+}
+.button-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.cart-button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  padding: 15px 20px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+.basket-btn{
+  font-size: 22px;
+  cursor: pointer;
+}
+.cart-button span{
+  color: #000;
+  font-size: 22px;
+}
+.order-btn{
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color:rgb(249, 142, 42);
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.cart-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cart-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.item {
+  margin: 1rem 0;
+  background-color: #eee;
+  padding: 1rem ;
+  list-style: none;
+  width: 400px;
+}
+
+.item h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.50rem;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.itemprice {
+  font-weight: normal;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.5rem 0;
+}
+
+.actions button {
+  background-color: transparent;
+  border: 1px solid white;
+  margin-left: 0.5rem;
+  padding: 0.15rem 1rem;
+  color: white;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: rgb(249, 142, 42);
+  color: white;
 }
