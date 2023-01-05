@@ -33,6 +33,34 @@
         "desc": "With butter bread and berries",
         "price": 9.50,
         "image": "/images/french-toast.png"
+    },
+    {
+        "id": 6,
+        "title": "Avocado Toast",
+        "desc": "2 pieces",
+        "price": 16.50,
+        "image": "/images/avocado-toast.png"
+    },
+    {
+        "id": 7,
+        "title": "Peanut Toast",
+        "desc": "With peanut butter",
+        "price": 9.50,
+        "image": "/images/peanut-toast.png"
+    },
+    {
+        "id": 8,
+        "title": "Butter Pancakes",
+        "desc": "With honey",
+        "price": 14.50,
+        "image": "/images/pancakes.png"
+    },
+    {
+        "id": 9,
+        "title": "Avocado Toast",
+        "desc": "2 pieces",
+        "price": 16.50,
+        "image": "/images/avocado-toast.png"
     }
     
 ]
