@@ -1,4 +1,6 @@
 import React from "react";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
 import Header from "./components/Header";
 import Intro from "./components/Intro";
 import ProductsSlider from "./components/ProductsSlider";
@@ -14,6 +16,7 @@ function App() {
      <ProductsSlider />
      <CartButton />
     </main>
+    <ToastContainer />
     </>
   );
 }
