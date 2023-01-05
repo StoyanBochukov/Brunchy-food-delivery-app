@@ -78,6 +78,7 @@ header{
   align-items: flex-start;
   width: 400px;
   height: 100%;
+  line-height: 1;
 }
 .intro-text{
   font-size: 46px;
@@ -102,16 +103,16 @@ span{
   width: 100%;
   height: 100%;
   gap: 40px;
-  overflow: visible;
 }
-.slider{
-  height: 330px;
- 
-}
+
 .slider-slide{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  height: 330px;
+}
+.slider{
+  width: 100%;
 }
 .card{
   position: relative;
@@ -291,4 +292,137 @@ span{
 .actions button:active {
   background-color: rgb(249, 142, 42);
   color: white;
+}
+@media(max-width:1500px){
+  
+  .item-title{
+    font-size: 18px;
+  }
+}
+@media(max-width:1248px){
+  .card{
+    width: 200px;
+    height: 240px;
+  }
+  .button-wrapper button{
+    width: 350px;
+  }
+}
+@media(max-width:1060px){
+  main{
+    padding: 1rem 4rem;
+  }
+  .card-img{
+    top: -45px;
+    right: -20px;
+    width: 110px;
+    height: 110px;
+  }
+  .card{
+    width: 180px;
+  }
+  .button-wrapper button{
+    width: 300px;
+  }
+}
+@media(max-width: 840px){
+  main{
+    padding: 1rem 3rem;
+  }
+  .intro{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .intro-text{
+    font-size: 38px;
+    max-width: 300px;
+    width: 100%;
+  }
+  .lead{
+    font-size: 14px;
+    width: 390px;
+  }
+  .button-wrapper button{
+    width: 270px;
+  }
+}
+@media(max-width:764px){
+  .card-img{
+    top: -45px;
+    right: -20px;
+    width: 90px;
+    height: 90px;
+  }
+  .card{
+    width: 150px;
+    height: 200px;
+  }
+  .item-title{
+    font-size: 16px;
+  }
+  .item-desc{
+    font-size: 14px;
+  }
+  .item-price{
+    font-size: 12px;
+  }
+  .basket{
+    padding: 5px 7px;
+    font-size: 15px;
+    right: 15px;
+    bottom: 15px;
+  }
+}
+@media(max-width:680px){
+  main{
+    padding: 1rem 2rem;
+  }
+  .intro-text{
+    font-size: 32px;
+    width: 100%;
+  }
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+  }
+  .navbar{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+  }
+  .delivery{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .button-wrapper button{
+    width: 200px;
+  }
+  .basket-btn{
+    font-size: 18px;
+  }
+  .cart-button span{
+    font-size: 18px;
+  }
+  .order-btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color:rgb(249, 142, 42);
+    padding: 10px 13px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
 }
