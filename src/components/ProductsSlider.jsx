@@ -38,23 +38,6 @@ const ProductsSlider = () => {
           </SplideSlide>
         ))}
       </Splide>
-
-      {/* <Swiper className='slider'
-      spaceBetween={50}
-      slidesPerView={6}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-    >
-      {products.map(product => (
-        <SwiperSlide key={product.id} className='slider-slide'>
-          <CardItem product={product} />
-        </SwiperSlide>
-
-      ))}
-    </Swiper> */}
-      {/* {products.map(product => (
-          <CardItem product={product} key={product.id} />
-        ))} */}
     </div>
   )
 }

@@ -14,6 +14,5 @@ const uiSlice = createSlice({
     }
 })
 
-// export const { toggle } = uiSlice.actions
 export const uiSliceActions = uiSlice.actions
 export const uiReducer = uiSlice.reducer
