@@ -426,3 +426,21 @@ span{
     cursor: pointer;
   }
 }
+@media(max-width:465px){
+  .slider-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 330px;
+  }
+  header{
+    font-size: 13px;
+  }
+  
+  .delivery-icon{
+    font-size: 20px;
+  }
+  .lead{
+    width: 100%;
+  }
+}

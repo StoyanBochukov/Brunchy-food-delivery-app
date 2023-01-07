@@ -28,6 +28,10 @@ const ProductsSlider = () => {
             585: {
               perPage: 2,
             },
+            465:{
+              perPage: 1,
+              arrows: true,
+            }
           },
         }}
         className='slider'
