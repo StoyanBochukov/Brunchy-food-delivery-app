@@ -425,6 +425,24 @@ span{
     border: none;
     cursor: pointer;
   }
+  .item {
+    width: 340px;
+  }
+  
+  .item h3 {
+    font-size: 1.1rem;
+  }
+  .quantity span {
+    font-size: 1.2rem;
+  }
+  
+  .price {
+    font-size: 1rem;
+  }
+  
+  .itemprice {
+    font-size: .8rem;
+  }
 }
 @media(max-width:465px){
   .slider-slide{
@@ -442,5 +460,17 @@ span{
   }
   .lead{
     width: 100%;
+  }
+  .cart-wrapper{
+    width: 100%;
+  }
+  .cart-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+    padding: 15px 20px;
+    background-color: #eee;
+    border-radius: 10px;
   }
 }
